@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    }
+    html{
+        scroll-behavior: smooth ;
+        
+    }
+    main{
+        background-color: #F3F3F3;
+    }
+    main, footer{
+        position: relative;
+        top: 70px; 
+    }
+    ::placeholder{
+        opacity: 60%;
+    }
+    ul{
+        list-style: none;
+    }
+    a{  
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif ;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif ;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    svg{
+        max-width: 100%;
+        height: auto;
+    }
+    footer{
+        font-family: 'Montserrat';
+        font-weight: 500;
+    }
+    /* bs */
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+        margin-bottom: 0rem ;
+    }
+    p{
+        margin: 0 ;
+    }
+    html{
+        overflow-x: hidden ;
+    }
+    ol, ul {
+        padding-left: 0px ;
+    }
+    .container__scroll {
+        transition: all 1s;
+        &{
+            transition: all 1s;
+        }
+        &::-webkit-scrollbar{
+            width: 15px;
+        }
+    }
+    dl, ol, ul {
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+    .container__scroll{
+        transition: all 1s;
+        &::-webkit-scrollbar-thumb{
+        background: #929292;
+        box-shadow: 0px 5px 4px  rgba(0, 0, 0, 0.267);
+        border-radius: 20px;
+
+        &:hover{
+            background: #929292;
+            box-shadow: 0px 5px 4px  rgba(0, 0, 0, 0.267);
+            border-radius: 20px;
+
+        }
+        &{
+            transition: all 1s;
+
+        }
+    }
+}
+.container__scroll{
+    &::-webkit-scrollbar-track {
+        background: #EDEDED;
+        box-shadow: inset 0px 8px 8px rgba(0, 0, 0, 0.25);
+    }
+}
+.container__scroll{
+&::-webkit-scrollbar-track:hover,
+&::-webkit-scrollbar-track:active {
+    transition: all 1s;
+
+}
+}
